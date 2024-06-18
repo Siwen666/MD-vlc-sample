@@ -7,9 +7,14 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String URL = "file:///sdcard/vr/video_31b451b7ca49710719b19d22e19d9e60.mp4";
+/*         "https://v-cdn.zjol.com.cn/276984.mp4";
+           "rtmp://liteavapp.qcloud.com/live/liteavdemoplayerstreamid"
+           "rtsp://admin:Hik12345@192.168.2.67:554/h264/ch1/main/av_stream"
+           */
 
-    private static final String URL_RTSP = "rtsp://218.204.223.237:554/live/1/66251FC11353191F/e7ooqwcfbqjoo80j.sdp";
+    private static final String URL = "rtmp://liteavapp.qcloud.com/live/liteavdemoplayerstreamid";
+
+    private static final String URL_RTSP = "rtmp://liteavapp.qcloud.com/live/liteavdemoplayerstreamid";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
